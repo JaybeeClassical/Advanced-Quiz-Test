@@ -88,3 +88,15 @@ h3{
     background-color: #333;
 }
 
+.btn:hover{
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    box-shadow: 0 0.4rem 1.4rem 0 #3f47c4;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
