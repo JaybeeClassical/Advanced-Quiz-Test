@@ -22,5 +22,28 @@
 
 .choice-text{
     padding: 1.5rem;
+    width: 100%;
+}
 
+.correct {
+    background-color: rgb(62, 146, 62);
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/*Styling the Head Display*/
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hid-main-text{
+    text-align: center;
 }
