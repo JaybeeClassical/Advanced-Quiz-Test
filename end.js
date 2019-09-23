@@ -1,7 +1,7 @@
 const username = document.getElementById("username");
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
-const audio = new Audio('Burna_Boy_Anybody_9jaflaver.com_.mp3');
+const audio = new Audio('clap.mp3');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
@@ -37,5 +37,5 @@ function song(play) {
     audio.play().catch(error => { });
 }
 
-// let startClock = setInterval(() => { song() }, 5000);
+let startClock = setInterval(() => { song() }, 5000);
 
